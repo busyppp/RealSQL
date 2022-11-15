@@ -3,7 +3,7 @@
 ### 👥 멤버 (6명)
 
 - [김유경](https://github.com/ugaemi) 👑
-- 이수진
+- [이수진](https://github.com/tudiiii)
 - [김하은](https://github.com/heidi127kim)
 - [서정연](https://github.com/busyppp)
 - [이주현](https://github.com/JuHyun419)
@@ -15,5 +15,12 @@
 
 ### 🌿 진행 방식
 
-- [Real MySQL 8.0 스터디](https://www.notion.so/ugaemi/Real-MySQL-8-0-1-439d277a7b4e40a79ecc8637c2fac945)의 발표자가 선정되면 발표자는 이번 주에 함께 풀 프로그래머스 SQL 문제 2개씩 선정해서 공유해요.
 - 본 저장소에 `{발표일}/{이름}/{문제번호}.sql` 형식으로 풀어낸 문제 파일을 올려주세요. `예) 221114/김유경/39241.sql`
+
+### 🤨 문제 리스트
+**221114**
+- [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)
+- [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)
+- [아픈 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59036)
+- [어린 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
+- [이름이 없는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59039)
