@@ -20,7 +20,7 @@
 
 ### 🤨 문제 리스트
 **2022.11.14**
-| 냔이도 | 유형 | 문제
+| 난이도 | 유형 | 문제
 --- | --- | ---
 Lv. 1 | SELECT | [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)
 Lv. 1 | SELECT | [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)
