@@ -17,10 +17,17 @@
 
 - 본 저장소에 `{발표일}/{이름}/{문제번호}.sql` 형식으로 풀어낸 문제 파일을 올려주세요. `예) 221114/김유경/39241.sql`
 
+
 ### 🤨 문제 리스트
-**221114**
-- [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)
-- [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)
-- [아픈 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59036)
-- [어린 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
-- [이름이 없는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59039)
+**2022.11.14**
+| 냔이도 | 유형 | 문제
+--- | --- | ---
+Lv. 1 | SELECT | [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)
+Lv. 1 | SELECT | [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)
+Lv. 1 | SELECT | [아픈 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59036)
+Lv. 1 | SELECT | [어린 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
+Lv. 1 | SELECT | [이름이 없는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59039)
+
+</br>
+
+**2022.11.21**
