@@ -2,12 +2,12 @@
 
 ### 👥 멤버 (6명)
 
-- 김유경 👑
+- [김유경](https://github.com/ugaemi) 👑
 - 이수진
-- 김하은
-- 서정연
-- 이주현
-- 남길우
+- [김하은](https://github.com/heidi127kim)
+- [서정연](https://github.com/busyppp)
+- [이주현](https://github.com/JuHyun419)
+- [남길우](https://github.com/Namgilu)
 
 ### 🎯 목표
 
