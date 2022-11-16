@@ -19,15 +19,10 @@
 
 
 ### 🤨 문제 리스트
-**2022.11.14**
-| 난이도 | 유형 | 문제
---- | --- | ---
-Lv. 1 | SELECT | [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)
-Lv. 1 | SELECT | [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)
-Lv. 1 | SELECT | [아픈 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59036)
-Lv. 1 | SELECT | [어린 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59037)
-Lv. 1 | SELECT | [이름이 없는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59039)
-
-</br>
-
-**2022.11.21**
+| 시작일        | 난이도   | 유형     | 문제                                                                                |
+|------------|-------|--------|-----------------------------------------------------------------------------------|
+| 2022.11.14 | Lv. 1 | SELECT | [모든 레코드 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/59034)    |
+| 2022.11.14 | Lv. 1 | SELECT | [역순 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/59035)        |
+| 2022.11.14 | Lv. 1 | SELECT | [아픈 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59036)       |
+| 2022.11.14 | Lv. 1 | SELECT | [어린 동물 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59037)       |
+| 2022.11.14 | Lv. 1 | SELECT | [이름이 없는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59039) |
