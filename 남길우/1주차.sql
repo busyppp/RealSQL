@@ -1,0 +1,14 @@
+-- 모든 레코드 조회하기
+SELECT * from ANIMAL_INS order by ANIMAL_ID ASC;
+
+-- 역순 정렬하기
+SELECT NAME, DATETIME from ANIMAL_INS order by ANIMAL_ID desc;
+
+-- 아픈 동물 찾기
+SELECT ANIMAL_ID, NAME from ANIMAL_INS where INTAKE_CONDITION = "Sick";
+
+-- 어린 동물 찾기
+SELECT ANIMAL_ID, NAME from ANIMAL_INS where INTAKE_CONDITION != "Aged";
+
+-- 이름이 없는 동물의 아이디
+SELECT ANIMAL_ID FROM ANIMAL_INS WHERE NAME IS NULL ORDER BY ANIMAL_ID ASC;
