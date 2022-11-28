@@ -23,3 +23,8 @@
 |  | Lv. 1 | [상위 n개 레코드](https://school.programmers.co.kr/learn/courses/30/lessons/59405)      |
 |  | Lv. 1 | [이름이 있는 동물의 아이디](https://school.programmers.co.kr/learn/courses/30/lessons/59407) |
 |  | Lv. 1 | [최댓값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/59415)        |
+| 3주차 | Lv. 1 | [강원도에 위치한 생산공장 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131112)    |
+|  | Lv. 1 | [경기도에 위치한 식품창고 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131114)   |
+|  | Lv. 1 | [나이 정보가 없는 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131528)      |
+|  | Lv. 1 | [조건에 맞는 회원수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131535) |
+|  | Lv. 1 | [가장 비싼 상품 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131697)        |
