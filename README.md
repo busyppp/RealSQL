@@ -28,3 +28,7 @@
 |  | Lv. 1 | [나이 정보가 없는 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131528)      |
 |  | Lv. 1 | [조건에 맞는 회원수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131535) |
 |  | Lv. 1 | [가장 비싼 상품 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131697)        |
+| 4주차 | Lv. 1 | [12세 이하인 여자 환자 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/132201)    |
+|  | Lv. 1 | [흉부외과 또는 일반외과 의사 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/132203)   |
+|  | Lv. 1 | [인기있는 아이스크림](https://school.programmers.co.kr/learn/courses/30/lessons/133024)      |
+|  | Lv. 1 | [과일로 만든 아이스크림 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/133025) |
