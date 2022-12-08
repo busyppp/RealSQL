@@ -1,0 +1,27 @@
+-- 12세 이하인 여자 환자 목록 출력하기
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, ifnull(TLNO, 'NONE') as TLNO
+FROM PATIENT
+WHERE AGE <= 12
+AND GEND_CD = 'W'
+ORDER BY AGE DESC, PT_NAME;
+
+
+-- 흉부외과 또는 일반외과 의사 목록 출력하기
+SELECT DR_NAME, DR_ID, MCDP_CD, substr(HIRE_YMD, 1) as HIRE_YMD
+FROM DOCTOR
+WHERE MCDP_CD in ('CS', 'GS')
+ORDER BY HIRE_YMD DESC, DR_NAME;
+
+
+-- 인기있는 아이스크림
+SELECT FLAVOR
+FROM FIRST_HALF
+ORDER BY TOTAL_ORDER desc, SHIPMENT_ID;
+
+
+-- 과일로 만든 아이스크림 고르기
+SELECT a.FLAVOR
+FROM FIRST_HALF as a, ICECREAM_INFO as b
+where a.FLAVOR = b.FLAVOR
+and a.TOTAL_ORDER > 3000
+and b.INGREDIENT_TYPE like 'fruit%';
