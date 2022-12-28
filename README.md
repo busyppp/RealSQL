@@ -40,3 +40,7 @@
 |  | | [동물 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/59406)   |
 |  | | [중복 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/59408)      |
 |  | | [중성화 여부 파악하기](https://school.programmers.co.kr/learn/courses/30/lessons/59409) |
+| 7주차 | | [NULL 처리하기](https://school.programmers.co.kr/learn/courses/30/lessons/59410) |
+| | | [입양 시각 구하기(1)](https://school.programmers.co.kr/learn/courses/30/lessons/59412) |
+| | | [DATETIME에서 DATE로 형 변환](https://school.programmers.co.kr/learn/courses/30/lessons/59414) |
+| | | [가격이 제일 비싼 식품의 정보 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131115) |
