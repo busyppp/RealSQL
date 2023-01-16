@@ -52,3 +52,6 @@
 | | | [진료과별 총 예약 횟수 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/132202) |
 | | | [성분으로 구분한 아이스크림 총 주문량](https://school.programmers.co.kr/learn/courses/30/lessons/133026) |
 | | | [조건에 맞는 도서와 저자 리스트 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/144854) |
+| 10주차 | Lv. 3 | [없어진 기록 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59042) |
+| | | [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043) |
+| | | [오랜 기간 보호한 동물(1)](https://school.programmers.co.kr/learn/courses/30/lessons/59044) |
