@@ -55,3 +55,6 @@
 | 10주차 | Lv. 3 | [없어진 기록 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59042) |
 | | | [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043) |
 | | | [오랜 기간 보호한 동물(1)](https://school.programmers.co.kr/learn/courses/30/lessons/59044) |
+| 11주차 | | [오랜 기간 보호한 동물(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59411) |
+| | | [헤비 유저가 소유한 장소](https://school.programmers.co.kr/learn/courses/30/lessons/77487) |
+| | | [조건별로 분류하여 주문상태 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131113) |
