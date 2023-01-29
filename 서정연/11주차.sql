@@ -1,0 +1,22 @@
+-- 오랜 기간 보호한 동물(2)
+SELECT INS.ANIMAL_ID, INS.NAME
+FROM ANIMAL_INS INS
+LEFT JOIN ANIMAL_OUTS OUTS
+ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
+ORDER BY OUTS.DATETIME - INS.DATETIME DESC
+LIMIT 2;
+
+-- 헤비 유저가 소유한 장소
+SELECT * FROM PLACES
+WHERE HOST_ID IN
+(SELECT HOST_ID FROM PLACES
+GROUP BY HOST_ID HAVING COUNT(HOST_ID)>=2)
+ORDER BY ID;
+
+-- 조건별로 분류하여 주문상태 출력하기
+SELECT ORDER_ID, PRODUCT_ID, substr(OUT_DATE, 1) as OUT_DATE,
+(case when out_date <= '2022-05-01' then "출고완료"
+when out_date is null then "출고미정"
+else "출고대기" end) as 출고여부
+FROM FOOD_ORDER
+order by 1;
