@@ -63,3 +63,5 @@
 | | | [대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151139) |
 | 13주차 | Lv. 4 | [보호소에서 중성화한 동물](https://school.programmers.co.kr/learn/courses/30/lessons/59045) |
 | | | [입양 시각 구하기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59413) |
+| 14주차 | | [우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284) |
+| | | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) |
