@@ -65,3 +65,5 @@
 | | | [입양 시각 구하기(2)](https://school.programmers.co.kr/learn/courses/30/lessons/59413) |
 | 14주차 | | [우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284) |
 | | | [식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116) |
+| 15주차 | | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117) |
+| | | [서울에 위치한 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131118) |
