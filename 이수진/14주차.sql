@@ -1,8 +1,15 @@
 -- 우유와 요거트가 담긴 장바구니
-SELECT cart_id
-from cart_products
-where name in ( 'Yogurt', 'Milk' )
-group by cart_id
-having count(distinct name) = 2
+SELECT CART_ID
+FROM CART_PRODUCTS
+WHERE NAME IN ( 'Yogurt', 'Milk' )
+GROUP BY CART_ID
+HAVING COUNT(DISTINCT NAME) = 2
 
 -- 식품분류별 가장 비싼 식품의 정보 조회하기
+SELECT CATEGORY, PRICE AS MAX_PRICE, PRODUCT_NAME
+FROM FOOD_PRODUCT
+WHERE (CATEGORY, PRICE) IN ( SELECT CATEGORY, MAX(PRICE)
+                            FROM FOOD_PRODUCT 
+                            WHERE CATEGORY IN ('과자', '국', '김치', '식용유')
+                            GROUP BY CATEGORY)
+ORDER BY PRICE DESC
