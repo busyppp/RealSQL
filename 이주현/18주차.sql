@@ -10,6 +10,7 @@ ORDER BY (a.total_order + b.total_order) DESC
 LIMIT 3;
 
 
+
 -- 저자 별 카테고리 별 매출액 집계하기
 SELECT a.author_id,
     a.author_name,
