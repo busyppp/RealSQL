@@ -1,0 +1,29 @@
+-- 오프라인/온라인 판매 데이터 통합하기
+-- 동일한 날짜, 회원 ID, 상품 ID 조합에 대해서는 하나의 판매 데이터만 존재
+-- 판매 날짜, 상품ID, 유저ID, 판매량을 출력하는 SQL문
+SELECT
+    DATE_FORMAT(A.SALES_DATE, '%Y-%m-%d') AS SALES_DATE,
+    A.PRODUCT_ID,
+    USER_ID,
+    A.SALES_AMOUNT
+FROM (
+    SELECT SALES_DATE, PRODUCT_ID, USER_ID, SALES_AMOUNT FROM ONLINE_SALE 
+    UNION ALL
+    SELECT SALES_DATE, PRODUCT_ID, NULL AS USER_ID, SALES_AMOUNT FROM OFFLINE_SALE
+) AS A
+WHERE SALES_DATE LIKE '2022-03%'
+ORDER BY 1, 2, 3;
+
+-- 취소되지 않은 진료 예약 조회하기
+SELECT AD.APNT_NO, P.PT_NAME, P.PT_NO, AD.MCDP_CD, AD.DR_NAME, AD.APNT_YMD 
+FROM PATIENT P 
+JOIN (SELECT A.APNT_NO, A.PT_NO, A.MCDP_CD, D.DR_NAME, A.APNT_YMD
+            FROM APPOINTMENT A 
+            LEFT OUTER JOIN DOCTOR D 
+                ON D.DR_ID = A.MDDR_ID
+            WHERE A.APNT_CNCL_YN = "N"
+                AND DATE_FORMAT(A.APNT_YMD, '%Y-%m-%d') LIKE "2022-04-13%"
+                AND A.MCDP_CD = "CS" 
+            ORDER BY A.APNT_YMD) AD  
+    ON P.PT_NO = AD.PT_NO
+ORDER BY AD.APNT_YMD;
