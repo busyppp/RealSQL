@@ -13,6 +13,7 @@ WHERE created_date = '2022-10-05'
 ORDER BY board_id desc;
 
 
+
 -- 자동차 평균 대여 기간 구하기
 SELECT 
     car_id, 
